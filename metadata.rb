@@ -4,7 +4,7 @@ maintainer_email 'realloc@realloc.spb.ru'
 license 'Apache 2.0'
 description 'Get secret files from chef-vault!'
 long_description 'Get secret files from chef-vault!'
-version '0.0.2'
+version '0.0.3'
 source_url 'https://github.com/realloc/cookbook-file-vault'
 issues_url 'https://github.com/realloc/cookbook-file-vault/issues'
 
@@ -12,4 +12,4 @@ issues_url 'https://github.com/realloc/cookbook-file-vault/issues'
   supports os
 end
 
-depends 'chef-vault', '~> 1.0.4'
+depends 'chef-vault'
