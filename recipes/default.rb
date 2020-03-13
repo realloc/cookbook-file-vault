@@ -14,5 +14,6 @@ node['file-vault']['files'].each do |item_hash|
     owner item_hash['owner'] || 'root'
     group item_hash['group'] || 'root'
     mode item_hash['mode'] ||'0640'
+    sensitive item_hash['sensitive'] || false
   end
 end
